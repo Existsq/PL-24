@@ -295,4 +295,4 @@ poetry.toml
 pyrightconfig.json
 
 
-.DS_Store
+./Labs/.DS_Store
