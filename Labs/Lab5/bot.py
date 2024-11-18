@@ -159,7 +159,6 @@ async def top_users_callback(callback_query: CallbackQuery):
     await callback_query.message.answer(f"🏆 Топ пользователей:\n\n{top_text}")
     await callback_query.answer()
 
-
 @dp.callback_query(lambda callback_query: callback_query.data == "main_menu")
 async def main_menu_callback(callback_query: CallbackQuery):
     """
